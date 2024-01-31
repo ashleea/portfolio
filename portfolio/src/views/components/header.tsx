@@ -4,12 +4,16 @@ export const Header= () => {
 
   return (
     <div>
-      <div id="websiteheader">
-        <div>
-          <p>Navigation</p>
+      <div>
+        <div id="header">
+          <p>ashleea holloway</p>
         </div>
-        <ul>
-            <li><NavLink to="/">home</NavLink></li>
+        <ul id="header-nav">
+            <li><div className="cloud"></div><NavLink className="link" to="/">home</NavLink></li>
+            <li><div className="cloud"></div><NavLink className="link" to="/projects">projects</NavLink></li>
+            <li><div className="cloud"></div><NavLink className="link" to="/webdev">webdev</NavLink></li>
+            <li><div className="cloud"></div><NavLink className="link" to="/art/concepts">art</NavLink></li>
+            <li><div className="cloud"></div><NavLink className="link" to="/3D">3D</NavLink></li>
         </ul>
       </div>
     </div>

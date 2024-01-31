@@ -1,42 +1,195 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  height: 100%;
+  padding: 10px;
+  border: 2px solid;
+  background-color:#b6ad90;
+}
+.icon-button {
+  font-size: 20px;
+}
+
+#header {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+#header p {
+  margin: 5px;
+}
+#header-nav {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+#header-nav .link{
+  position: relative;
+  padding: 10px;
+}
+
+#header-nav li{
+  /*
+  animation-name: cloudbuttonhover;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1, jump-end);
+  filter: blur(0);
+  */
+  position: relative;
+  min-width: 50px; 
+  width: max-content;
+  
+  text-align: center;
+}
+.cloudbutton:hover{
+
+}
+.cloud{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#ECEFF1;
+  box-shadow: 10px 10px rgba(0,0,0,0.1);
+  border-radius:100px;
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width: 30%;
+    height: 20px;
+    bottom: 15px;
+    right: 30%;
+}
+.cloud::before{
+    width: 40%;
+    height: 30px;
+    bottom: 10px;
+    left: 30%;
+}
+
+/* key frames */
+@keyframes cloudbuttonhover{
+    0% { transform: translateY(0px); }
+    10%  { transform: translateY(-2px); }
+    20%  { transform: translateY(0px); }
+    100%   { transform: translateY(0px); } 
+}
+
+
+#page {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+.container {
+  border: 2px solid #b6a090;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+}
+#footer {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 12px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.projects .icon{
+  margin-right: 5px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.project{
+  display: flex;
+  gap: 20px;
+  position: relative;
+  padding: 10px;
+}
+.project .title{
+  display: flex;
+  align-items: center;
+}
+.project .title .green{
+  margin-left: 20px;
+  height: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  background-color: #90ee90
+}
+.project .thumbnail{
+  min-width: 300px;
+}
+.project .underlay{
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.characterconcepts{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.characterconcepts .sidebar{
+  max-width: 400px;
+  font-size: 14px;
+}
+.characterconcepts .mainbar{
+  flex: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
+.home{
+  display: flex;
+  justify-content: center;
 }
-
-.read-the-docs {
-  color: #888;
+.home .sidebar{
+  width: 400px;
+  font-size: 14px;
+}
+.home .mainbar{
+  flex: 1;
+}
+.home #avatar{
+  width: 100px;
+  height: 100px;
+}
+.home .chatbubble{
+  background-color: #f5f5f5;
+  border-radius: 40px;
+  padding: 20px;
+  width: max-content;
+}
+.tri-right.border.left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
 }
