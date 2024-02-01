@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <Header />
+      <div id="pagemiddle">
         <div id="page">
-          <Router />
+            <Router />
         </div>
+      </div>
       <Footer />
     </>
   )

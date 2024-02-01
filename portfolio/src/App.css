@@ -99,6 +99,8 @@
   border: 2px solid #b6a090;
   border-radius: 20px;
   background-color: #f5f5f5;
+  padding: 10px;
+  margin: 10px;
 }
 #footer {
   margin: auto;
@@ -111,16 +113,19 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
-.projects .icon{
+.icon{
   margin-right: 5px;
 }
 .project{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   position: relative;
-  padding: 10px;
+}
+.project .info{
+  flex: 1 1 500px;
 }
 .project .title{
   display: flex;
@@ -164,8 +169,16 @@
   display: flex;
   justify-content: center;
 }
+.home #intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .home .sidebar{
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
   font-size: 14px;
 }
 .home .mainbar{
@@ -174,6 +187,11 @@
 .home #avatar{
   width: 100px;
   height: 100px;
+}
+#homeicons{
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .home .chatbubble{
   background-color: #f5f5f5;
@@ -192,4 +210,12 @@
 	bottom: auto;
 	border: 20px solid;
 	border-color: #666 #666 transparent transparent;
+}
+
+#threed{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#threed .model{
 }

@@ -13,7 +13,7 @@ const Projects = () => {
                 <div className="thumbnail">
                     <img src=""></img>
                 </div>
-                <div>
+                <div className="info">
                     <p className="title">
                         <h1>Trading Card Game Website</h1>
                         <div className="green">in development!</div>
@@ -40,7 +40,7 @@ const Projects = () => {
                 <div className="thumbnail">
                     <img src=""></img>
                 </div>
-                <div>
+                <div className="info">
                     <p className="title"><h1>EDMS Class Group Projects</h1></p>
                     <p className="description">
                         Multiple student groups from CSUSB's EDMS class partnered with xREAL Lab to create virtual environments for their class presentations. This would include a github pages website, and multiple mozilla hubs rooms.
@@ -50,7 +50,7 @@ const Projects = () => {
                             HTML
                         </p>
                         <p><FontAwesomeIcon icon={faBoxOpen} className="icon" />
-                            <a href="">Mozilla Hubs</a>, <a href="">Google Model Viewer</a>
+                            <a href="https://hubs.mozilla.com/">Mozilla Hubs</a>, <a href="https://modelviewer.dev/">Google Model Viewer</a>
                         </p>
                         <p className="date"><FontAwesomeIcon icon={faCalendar} className="icon" />  
                             November 2023
@@ -64,7 +64,7 @@ const Projects = () => {
                 <div className="thumbnail">
                     <img src=""></img>
                 </div>
-                <div>
+                <div className="info">
                     <p className="title"><h1>Discord Bots</h1></p>
                     <p className="description">
                         Combination of bots run on a Raspberry Pi 3. Provides services to a discord server for a MMO (massively multiplayer online video game). Various commands are available to view game and guild information. Includes a currency system and rank-up system.
