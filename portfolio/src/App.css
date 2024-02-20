@@ -87,6 +87,9 @@
     20%  { transform: translateY(0px); }
     100%   { transform: translateY(0px); } 
 }
+.sidebar{
+  max-height: max-content;
+}
 
 
 #page {
@@ -99,7 +102,7 @@
   border: 2px solid #b6a090;
   border-radius: 20px;
   background-color: #f5f5f5;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
 }
 #footer {
@@ -139,7 +142,8 @@
   background-color: #90ee90
 }
 .project .thumbnail{
-  min-width: 300px;
+  margin: auto;
+  width: 300px;
 }
 .project .underlay{
   margin-top: 10px;
@@ -154,7 +158,7 @@
 .characterconcepts{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: flex-start;
 }
 .characterconcepts .sidebar{
   max-width: 400px;
@@ -216,6 +220,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 #threed .model{
+}
+#threed .thumbnail{
+  margin: auto;
+  max-width: 300px;
 }

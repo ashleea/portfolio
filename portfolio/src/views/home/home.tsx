@@ -21,19 +21,15 @@ const Home = () => {
                         <a className="icon" href="mailto:ashleeaholloway@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
                     </div>
                     <div>
-                        Hello! My name is Ashleea, and I am a software developer and artist based in Southern California. I currently work the most with full stack web development, 3D modeling, and character design.<br />
+                        Hello! My name is Ashleea, and I am a software developer and artist based in Southern California. I currently work the most with full stack web development, 3D modeling, and character design.<br />I am currently imagining my career as a combination of technical and artistic design within the realm of education.
 
 
                     </div>
                 </div>
                 <div className="container">
-                    <div id="homeicons">
-                        <a className="icon" href="https://www.linkedin.com/in/ashleea-holloway-7358b6192"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                        <a className="icon" href="https://github.com/ashleea"><FontAwesomeIcon icon={faGithub} /></a>
-                        <a className="icon" href="mailto:ashleeaholloway@outlook.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-                    </div>
+                    
                     <div>
-                        I started my technical and educational career during my time at university, in which I was  <br />
+                        I started my career during my time at university, in which I was a computer science tutor for freshman and sophmore level classes. After I graduated, I was offered an internship to continue working on my senior capstone project - a mental health mobile app for a research lab. I then moved to California from Arizona, and continued working in education as an administrative assistant in a VR programming lab for faculty.<br />
 
                         
                     </div>

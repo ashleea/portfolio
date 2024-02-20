@@ -50,7 +50,7 @@ const Webdev = () => {
                     <div className="info">
                         <p className="title"><h1>Account System</h1></p>
                         <p className="description">
-                            Includes registration, login, profile, settings, directories, and administrative roles. Utilizes pashword hashing, JSON Web Tokens, Cookies, and role-restricted routes.
+                            Includes registration, login, profile, settings, directories, and administrative roles. Utilizes password hashing, JSON Web Tokens, Cookies, and role-restricted routes.
                         </p>
                         <div className="underlay">
                             <p><FontAwesomeIcon icon={faBoxOpen} className="icon" />

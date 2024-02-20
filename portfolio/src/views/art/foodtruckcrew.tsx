@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import ArtSidebar from "../components/artsidebar";
 
-const Concepts = () => {
+const FoodTruckCrew = () => {
 
     return (
         <>
@@ -17,4 +17,4 @@ const Concepts = () => {
     );
 }
 
-export default Concepts;
+export default FoodTruckCrew;
