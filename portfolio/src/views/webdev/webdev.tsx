@@ -1,5 +1,5 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBoxOpen, faCalendar } from "@fortawesome/free-solid-svg-icons";
+
+import { faBoxOpen} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Webdev = () => {

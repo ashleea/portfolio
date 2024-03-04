@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import ArtSidebar from "../components/artsidebar";
 
 const FoodTruckCrew = () => {
