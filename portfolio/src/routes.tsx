@@ -9,7 +9,9 @@ import ThreeD from '@/views/3D/3d';
 import AlienEscape from '@/views/art/alienescapegame';
 import Dnd from '@/views/art/dnd';
 import FoodTruckCrew from '@/views/art/foodtruckcrew';
-import MovingOut from './views/art/movingout';
+import MovingOut from '@/views/art/movingout';
+import Misc from '@/views/art/misc';
+import RequestedWork from '@/views/art/requestedwork';
 
 const routes = [
     { path: '/', component: <Home />},
@@ -19,6 +21,8 @@ const routes = [
     { path: '/art/movingout', component: <MovingOut />},
     { path: '/art/dnd', component: <Dnd />},
     { path: '/art/foodtruckcrew', component: <FoodTruckCrew />},
+    { path: '/art/misc', component: <Misc/>},
+    { path: '/art/requestedwork', component: <RequestedWork/>},
 
     { path: '/webdev', component: <Webdev />},
 

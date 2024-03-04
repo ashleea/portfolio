@@ -10,10 +10,7 @@ export const Header= () => {
         </div>
         <ul id="header-nav">
             <li><div className="cloud"></div><NavLink className="link" to="/">home</NavLink></li>
-            <li><div className="cloud"></div><NavLink className="link" to="/projects">projects</NavLink></li>
-            <li><div className="cloud"></div><NavLink className="link" to="/webdev">webdev</NavLink></li>
-            <li><div className="cloud"></div><NavLink className="link" to="/art/concepts">art</NavLink></li>
-            <li><div className="cloud"></div><NavLink className="link" to="/3D">3D</NavLink></li>
+            <li><div className="cloud"></div><NavLink className="link" to="/art/foodtruckcrew">art</NavLink></li>
         </ul>
       </div>
     </div>

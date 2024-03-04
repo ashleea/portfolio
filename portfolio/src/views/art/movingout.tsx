@@ -2,7 +2,7 @@ import ArtSidebar from "../components/artsidebar";
 
 const MovingOut = () => {
 
-    const assetURL = import.meta.env.VITE_BASE_ASSETS + 'art/digital/pixel/movingout/';
+    const assetURL = '/assets/art/digital/pixel/movingout/';
 
     return (
         <>

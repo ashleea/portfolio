@@ -4,23 +4,20 @@ import { faCode, faBoxOpen, faCalendar } from '@fortawesome/free-solid-svg-icons
 
 const Projects = () => {
 
-    const assetURL = import.meta.env.VITE_BASE_ASSETS + 'projects/';
+    const assetURL = '/assets/projects/';
 
     return (
         <>
         <div className="projects">
 
             <div className="project container">
-                <div className="thumbnail">
-                    <img src=""></img>
-                </div>
                 <div className="info">
                     <p className="title">
                         <h1>Trading Card Game Website</h1>
                         <div className="green">in development!</div>
                     </p>
                     <p className="description">
-                        A TCG designed to be community run. The website includes or is planned to include various functionality including accounts, directories, calendars, trading, forumns, mini web games, store system with currency, inventories, badge earning, and more.
+                        A TCG designed to be community run. The website is currently planned to include various functionality including accounts, directories, calendars, trading, forumns, mini web games, store system with currency, inventories, badge earning, and more. <br></br>
                     </p>
                     <div className="underlay">
                         <p><FontAwesomeIcon icon={faCode} className="icon" /> 
@@ -38,9 +35,6 @@ const Projects = () => {
             </div>
 
             <div className="project container">
-                <div className="thumbnail">
-                    <img src=""></img>
-                </div>
                 <div className="info">
                     <p className="title">
                         <h1>Portfolio Website</h1>
@@ -118,9 +112,6 @@ const Projects = () => {
             </div>
 
             <div className="project container">
-                <div className="thumbnail">
-                    <img src=""></img>
-                </div>
                 <div className="info">
                     <p className="title"><h1>Discord Bots</h1></p>
                     <p className="description">

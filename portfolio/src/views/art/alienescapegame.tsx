@@ -2,7 +2,7 @@ import ArtSidebar from "../components/artsidebar";
 
 const AlienEscape = () => {
 
-    const assetURL = import.meta.env.VITE_BASE_ASSETS + 'art/digital/pixel/alienescape/';
+    const assetURL = '/assets/art/digital/pixel/alienescape/';
 
     return (
         <>

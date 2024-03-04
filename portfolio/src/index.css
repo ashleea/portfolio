@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #414833;
-  background-color: #c2c5aa;
+  background-color: #aac5ac;
 
 
   font-synthesis: none;
@@ -60,7 +60,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+/*
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -73,3 +73,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
