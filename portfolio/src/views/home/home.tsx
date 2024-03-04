@@ -156,7 +156,6 @@ const Home = () => {
                             <p className="date"><FontAwesomeIcon icon={faCalendar} className="icon" />  
                                 2020 - 2022
                             </p>
-                            <a href="/" className="button-icon"><FontAwesomeIcon icon={faGithub} className="icon" /></a>
                         </div>
                     </div>
                 </div>
