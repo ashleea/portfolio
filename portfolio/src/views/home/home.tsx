@@ -58,7 +58,6 @@ const Home = () => {
                             <p className="date"><FontAwesomeIcon icon={faCalendar} className="icon" />  
                                 Jan 2023 - Now
                             </p>
-                            <a href="/" className="button-icon"><FontAwesomeIcon icon={faGithub} className="icon" /></a>
                         </div>
                     </div>
                 </div>
